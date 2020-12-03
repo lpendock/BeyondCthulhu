@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Beyond Cthulhu",
+    "version": "1.0",
+    "description": "Emulates the extension Beyond20.",
+    "icons": {
+        "48": "icons/cthulhu.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://localhost/beyond_cthulhu/*"],
+            "js": ["beyond_cthulhu.js"]
+        }
+    ]
+}

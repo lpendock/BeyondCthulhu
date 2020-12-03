@@ -1,0 +1,1 @@
+Permissions are set to localhost. This will need to change for the extension to work seperately from my computer.
