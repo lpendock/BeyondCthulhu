@@ -8,8 +8,15 @@
     },
     "content_scripts": [
         {
-            "matches": ["http://localhost/beyond_cthulhu/*"],
+            "matches": ["http://localhost/website/*"],
             "js": ["beyond_cthulhu.js"]
+        },
+        {
+            "matches": ["http://localhost/game"],
+            "js": ["vtt_script.js"]
         }
-    ]
+    ],
+    "background": {
+        "scripts": ["background_script.js"]
+    }
 }
